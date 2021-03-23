@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage("Pull Latest Image"){
 			steps{
-				sh "docker pull vinsdocker/selenium-docker"
+				sh "docker pull 112170559/lastbuild"
 			}
 		}
 		stage("Start Grid"){
